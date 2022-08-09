@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass ./sass/main.scss ./css/style.css --output-style compressed -w",
+    "server": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmeireles/natours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devmeireles/natours/issues"
+  },
+  "homepage": "https://github.com/devmeireles/natours#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
